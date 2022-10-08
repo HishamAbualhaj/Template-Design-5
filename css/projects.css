@@ -1,0 +1,68 @@
+/* -------------------------------------- */
+/* projects section starts  */
+:root {
+    --primary-color: white;
+    --background-color: #f1f5f9;
+    --text-color: #888;
+    --bule-color: #0473fc;
+    --blue-light: #d0e4fc;
+    --yellow-color: #f59e0b;
+    --yellow-light: #ffeccc;
+    --green-color: #22c55e;
+    --green-light: #d3f3df;
+    --red-color: #f44333;
+    --red-light: #f77d74;
+    --height-of-slider: 20px;
+    --left-px: 4px;
+}
+.projects-section {
+    padding: 20px;
+}
+.project .text  {
+    margin-top: -22px;
+}
+.project .date {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 13px;
+}
+.content h4 {
+    font-weight: 500;
+ 
+}
+.content p {
+    font-size: 14px;
+}
+.avatars {
+    padding-top: 40px;
+    position: relative;
+}
+.infoes {
+    display: flex;
+    gap: 5px;
+    justify-content: flex-end;
+}
+.loader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.loader .shape {
+    background-color: #eee;
+    height: 8px;
+    width: 50%;
+    border-radius: 5px;
+    position: relative;
+}
+.loader .shape div {
+    position: absolute;
+    height: 100%;
+    border-radius: 5px;
+}
+@media (max-width: 768px) {
+    .infoes {
+        justify-content: center;
+    }
+}
+/* projects section ends  */
+/* -------------------------------------- */

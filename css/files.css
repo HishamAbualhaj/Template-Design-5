@@ -1,0 +1,123 @@
+/* -------------------------------------- */
+/* files section starts  */
+:root {
+    --primary-color: white;
+    --background-color: #f1f5f9;
+    --text-color: #888;
+    --bule-color: #0473fc;
+    --blue-light: #d0e4fc;
+    --yellow-color: #f59e0b;
+    --yellow-light: #ffeccc;
+    --green-color: #22c55e;
+    --green-light: #d3f3df;
+    --red-color: #f44333;
+    --red-light: #f77d74;
+    --height-of-slider: 20px;
+    --left-px: 4px;
+}
+
+.files {
+    padding: 20px;    
+}
+.files .file-container {
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+}
+.files .files-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+    flex:80%;
+    margin-top: 0;
+}
+.file {
+    position: relative;
+}
+.files .file i {
+    color: var(--text-color);
+    font-size: 18px;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+.file .content .file-name {
+    text-align: center;
+}
+.file .content .file-name img {
+    width: 70px;
+}
+.file .content .file-name h4 {
+    font-weight: 500;
+}
+.file .content .date {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.file-statistics {
+    height: fit-content;
+    flex: 20%;
+}
+.file-statistics .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #eee;
+    padding: 15px;
+    border-radius: 5px;
+}
+.file-statistics .row .icon {
+    display: grid;
+    place-items: center;
+    padding: 15px 15px;
+    width: 50px;
+    background-color: var(--blue-light);
+}
+.file-statistics .row i {
+    font-size: 20px;
+}
+.file-statistics .pdf i {
+    color: var(--bule-color); 
+}
+.file-statistics .images i {
+    color: var(--green-color);
+}
+.file-statistics .word i {
+    color: var(--red-color);
+}
+.file-statistics .csv i {   
+    color: var(--yellow-color);
+}
+.file-statistics .pdf .icon {
+    background-color: var(--blue-light);
+}
+.file-statistics .images .icon {
+    background-color: var(--green-light);
+}
+.file-statistics .word .icon {
+    background-color: var(--red-light);
+}
+.file-statistics .csv .icon {
+    background-color: var(--yellow-light);
+}
+.file-statistics .file-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.file-statistics .content .btn {
+    background-color: var(--bule-color);
+    width: fit-content;
+    margin-inline: auto;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+@media (max-width:1400px ) {
+    .file-container {
+        flex-direction: column;
+    }
+}
+/* files section ends  */
+/* -------------------------------------- */

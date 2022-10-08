@@ -1,0 +1,83 @@
+/* -------------------------------------- */
+/* courses section starts  */
+:root {
+    --primary-color: white;
+    --background-color: #f1f5f9;
+    --text-color: #888;
+    --bule-color: #0473fc;
+    --blue-light: #d0e4fc;
+    --yellow-color: #f59e0b;
+    --yellow-light: #ffeccc;
+    --green-color: #22c55e;
+    --green-light: #d3f3df;
+    --red-color: #f44333;
+    --red-light: #f77d74;
+    --height-of-slider: 20px;
+    --left-px: 4px;
+}
+.courses {
+    padding: 20px;
+}
+.courses .courses-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+}
+.courses .course {
+    position: relative;
+    padding: 0;
+}
+.courses .course .avatar{
+    position: absolute;
+    left: 25px;
+    top: 20px;
+    border: 3px solid white;
+    background-color: white;
+    border-radius: 50%;
+}
+.courses .course .main-img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.courses .content .text  {
+    padding: 0px 20px 0px 20px;
+}
+.courses .content .text .title {
+    font-size: 17px
+}
+.courses .content .text .title-light {
+    font-size: 15px;
+    line-height: 1.5;
+    max-width: 100%
+}
+.courses .content .course-info {
+   width: 100%;
+   position: relative;
+   z-index: 1;
+}
+.courses .content .course-info .btn {
+    position: relative;
+    color: white;
+    font-size: 14px;
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-inline: auto;
+}
+.courses .content .course-info::before {
+    content: '';
+    position: absolute;
+    height: 0.5px;
+    width: 100%;
+    background-color: #eee;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    z-index: 0;
+}
+.courses .content .amount {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px 20px 20px;
+}
+/* courses section ends  */
+/* -------------------------------------- */

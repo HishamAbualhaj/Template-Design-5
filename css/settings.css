@@ -1,0 +1,200 @@
+/* -------------------------------------- */
+/* settings section starts  */
+:root {
+    --primary-color: white;
+    --background-color: #f1f5f9;
+    --text-color: #888;
+    --bule-color: #0473fc;
+    --blue-light: #d0e4fc;
+    --yellow-color: #f59e0b;
+    --yellow-light: #ffeccc;
+    --green-color: #22c55e;
+    --green-light: #d3f3df;
+    --red-color: #f44333;
+    --red-light: #f77d74;
+    --height-of-slider: 20px;
+    --left-px: 4px;
+}
+.settings {
+    padding: 20px;
+}
+/* site-control starts  */
+.site-control {
+    padding-bottom: 50px;
+}
+.site-control .content .website-control {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.site-control .content .text h4 {
+    font-size: 18px;
+    font-weight: 500;
+}
+.site-control .content .text .title-light {
+    font-size: 14px;
+}
+.site-control .content textarea {
+    resize: none;
+    width: 100%;
+    border-color: #ccc;
+    border-radius: 4px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.site-control .content textarea::placeholder {
+    font-size: 14px;
+    font-weight: 300;
+}
+/* site-control ends  */
+ /* general-info starts  */
+.general-info .content .title-light {
+    font-size: 15px;
+    font-weight: 500;
+}
+.general-info .content .form input {
+    margin-top: 5px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.general-info .content input::placeholder {
+    font-size: 14px;
+}
+.general-info .content .email div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.general-info .content .email div h5 {
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--bule-color);
+}
+.general-info .content .email input {
+    margin-top: 5px;
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: var(--background-color);
+}
+/* general-info ends  */
+/* security info starts  */
+.security-info .content .line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+.security-info .content .line h5 {
+    font-size: 15.5px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.security-info .content .line .title-light {
+    font-size: 13.5px;
+    margin-top: 5px;
+}
+.security-info .content .line .btn {
+    background-color: var(--bule-color);
+    color: white;
+    padding: 4px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.security-info .content .line .info {
+    font-size: 14px;
+    padding: 5px 10px;
+}
+.security-info .content .line:first-child {
+    padding-bottom: 25px;
+}
+.security-info .content .Two-Factor{
+    padding-bottom: 25px;
+}
+.security-info .content .line:not(:last-child) {
+    border-bottom: 1px solid #eee;
+}
+/* security info ends  */
+/* social info starts */
+.social-info {
+    padding-bottom: 50px;
+}
+.social-info .content .social {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.social-info .content .social i {
+    color: var(--text-color);
+    font-size: 18px;
+    padding-left: 10px;
+}
+.social-info .content .social span {
+    font-size: 14px;
+    color: var(--text-color);
+    border-left: 1px solid #ccc;
+    padding: 10px;
+}
+/* social info ends */
+/* widget starts  */
+.widgets .content div {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.widgets .content label {
+    font-size: 15.5px;
+    text-transform: capitalize;
+}
+.widgets .content input[type=checkbox] {
+    accent-color: var(--bule-color);
+    height: 25px;
+    width: 15px;
+}
+/* widget ends  */
+/* back up manager starts  */
+.back-up .content div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+.back-up .content input[type=radio] {
+    accent-color: var(--bule-color);
+    height: 25px;
+    width: 18px;
+}
+.back-up .data {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #eee;
+    margin-top: 15px;
+}
+.back-up .data .data-type {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    padding: 18px 0px;
+    flex: 25%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.back-up .data .selected {
+    border-color: var(--bule-color);
+    color: var(--bule-color);
+}
+.back-up .data .data-type:hover {
+    border-color: var(--bule-color);
+    color: var(--bule-color);
+}
+/* back up manager ends  */
+/* settings section ends  */
+/* -------------------------------------- */

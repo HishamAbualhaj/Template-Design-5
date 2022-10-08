@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <!-- Font awesome Icon  -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Css Files  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/settings.css">
+    <!-- Normalize Css  -->
+    <link rel="stylesheet" href="css/Normalize.css">
+    <!-- Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- start of website-page  -->
+    <div class="website-page">
+        <i class="fa-solid fa-bars bars"></i>
+        <!-- sidebar starts  -->
+        <div class="sidebar">
+            <div class="title">Hisham</div>
+            <div class="shape"></div>
+            <ul>
+                <li><a href="index.html"><i class="fa-solid fa-chart-line fa-fw"></i>Dashboard</a></li>
+                <li class="active"><a href="settings.html"><i class="fa-solid fa-gear fa-fw"></i>Settings</a></li>
+                <li><a href="profile.html"><i class="fa-regular fa-user fa-fw"></i>Profile</a></li>
+                <li><a href=""><i class="fa-solid fa-diagram-project fa-fw"></i>Projects</a></li>
+                <li><a href=""><i class="fa-solid fa-film fa-fw"></i>Courses</a></li>
+                <li><a href=""><i class="fa-solid fa-user-group fa-fw"></i>Friends</a></li>
+                <li><a href=""><i class="fa-regular fa-file fa-fw"></i>Files</a></li>
+                <li><a href=""><i class="fa-regular fa-credit-card fa-fw"></i>Plans</a></li>
+            </ul>
+        </div>
+        <!-- sidebar ends  -->
+
+        <!-- start of main content  -->
+        <div class="main-content ">
+            <!-- header  -->
+            <div class="header">
+                <div class="search">
+                    <i class="fa-solid fa-magnifying-glass"></i><input type="text" placeholder="Type A Keyword">
+                </div>
+                <div class="profile">
+                    <div class="icon"><i class="fa-regular fa-bell"></i></div>
+                    <img src="images/profile-pic.png" alt="profile-img">
+                </div>
+            </div>
+            <!-- header  -->
+
+             <!-- start of settings section  -->
+            <div class="settings">
+                <div class="title-main">Settings</div>
+                 <!-- start of settings cards  -->
+                <div class="settings-cards cards">
+                    <!-- site-control starts  -->
+                    <div class="site-control card">
+                        <div class="title">
+                            Site Control
+                        </div>
+                        <div class="title-light mt-10">Control the website if there is maintenance</div>
+                        <div class="content">
+                            <div class="website-control">
+                                <div class="text">
+                                    <h4>website Control</h4>
+                                    <div class="title-light mt-10">open/close website and type the reason</div>
+                                </div>
+                                <label class="toggle-switch">
+                                    <input type="checkbox" checked>
+                                    <div class="slider"></div>
+                                </label>
+                            </div>
+                            <textarea cols="30" rows="8" placeholder="Close Message Content" class="mt-20"></textarea>
+                        </div>
+                    </div>
+                    <!-- site-control ends  -->
+                    <!-- general-info starts  -->
+                    <div class="general-info card">
+                        <div class="title">general info</div>
+                        <div class="title-light mt-10">general information about your account</div>
+                        <div class="content">
+                            <div class="form">
+                                <div class="title-light">first name</div>
+                                <input type="text" placeholder="First Name">
+                                <div class="title-light mt-20">last name</div>
+                                <input type="text" placeholder="Last Name">
+                            </div>
+                            <div class="email">
+                                <div class="title-light mt-20">Email</div>
+                                <div>
+                                    <input type="text" placeholder="Hish@gmail.com" disabled>
+                                    <h5>Change</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- general-info ends  -->
+
+                    <!-- security info starts -->
+                    <div class="security-info card">
+                        <div class="title">security info</div>
+                        <div class="title-light mt-10">
+                            security information about your account
+                        </div>
+                        <div class="content">
+                            <div class="line">
+                                <div class="text">
+                                    <h5>password</h5>
+                                    <div class="title-light">last change on 25/10/2021</div>
+                                </div>
+                                <div class="btn">Change</div>
+                            </div>
+
+                            <div class="line Two-Factor">
+                                <div class="text">
+                                    <h5>Two-Factor Authentication</h5>
+                                    <div class="title-light">Enable/Disable the feature</div>
+                                </div>
+                                <label class="toggle-switch">
+                                    <input type="checkbox" checked>
+                                    <div class="slider"></div>
+                                </label>
+                            </div>
+
+                            <div class="line devices">
+                                <div class="text">
+                                    <h5>Devices</h5>
+                                    <div class="title-light">check the login devices list</div>
+                                </div>
+                                <div class="info">Devices</div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- security info ends -->
+
+                    <!-- social info starts -->
+                    <div class="social-info card">
+                        <div class="title">social info</div>
+                        <div class="title-light mt-10">social media information</div>
+                        <div class="content">
+                            <div class="social mt-20">
+                                <i class="fa-brands fa-twitter fa-fw"></i>
+                                <span>Twitter Username</span>
+                            </div>
+
+                            <div class="social mt-20">
+                                <i class="fa-brands fa-facebook-f fa-fw"></i>
+                                <span>Facebook Username</span>
+                            </div>
+
+                            <div class="social mt-20">
+                                <i class="fa-brands fa-linkedin fa-fw"></i>
+                                <span>Linkedin Username</span>
+                            </div>
+
+                            <div class="social mt-20">
+                                <i class="fa-brands fa-youtube fa-fw"></i>
+                                <span>Youtube Username</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- social info ends -->
+
+                    <!-- widget starts  -->
+                    <div class="widgets card">
+                        <div class="title">widgets control</div>
+                        <div class="title-light mt-10">show/hide widgets</div>
+                        <div class="content">
+                            <div>
+                                <input type="checkbox" id="quick-draft" checked>
+                                <label for="quick-draft">quick draft</label>
+                            </div>
+
+                            <div>
+                                <input type="checkbox" id="yearly-target" checked>
+                                <label for="yearly-target">yearly target</label>
+                            </div>
+
+                            <div>
+                                <input type="checkbox" id="tickets-stat">
+                                <label for="tickets-stat">tickets statistics</label>
+                            </div>
+
+                            <div>
+                                <input type="checkbox" id="lastest-news" checked>
+                                <label for="lastest-news"> lastest news</label>
+                            </div>
+
+                            <div>
+                                <input type="checkbox" id="lastest-tasks">
+                                <label for="lastest-tasks">lastest tasks</label>
+                            </div>
+
+                            <div>
+                                <input type="checkbox" id="top-search" checked>
+                                <label for="top-search">top search items</label>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- widget ends  -->
+
+                    <!-- back up manager starts  -->
+                    <div class="back-up card">
+                        <div class="title">backup manager</div>
+                        <div class="title-light mt-10">control backup time and location</div>
+                        <div class="content">
+                            <div>
+                                <input type="radio" id="daily" checked>
+                                <label for="daily">Daily</label>
+                            </div>
+
+                            <div>
+                                <input type="radio" id="weekly">
+                                <label for="weekly">Weekly</label>
+                            </div>
+
+                            <div>
+                                <input type="radio" id="monthly">
+                                <label for="monthly">Monthly</label>
+                            </div>
+
+                            <div class="data">
+                                <div class="data-type"><i class="fa-solid fa-server"></i>Megaman</div>
+                                <div class="data-type selected"><i class="fa-solid fa-server"></i>Hisham</div>
+                                <div class="data-type"><i class="fa-solid fa-server"></i>Sigma</div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <!-- back up manager ends  -->
+                </div>
+                <!-- end of settings cards  -->
+            </div>
+            <!-- end of settings section  -->
+        </div>
+        <!-- end of main content  -->
+    </div>
+    <!-- end of website-page  -->
+</body>
+
+</html>

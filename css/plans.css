@@ -1,0 +1,105 @@
+/* -------------------------------------- */
+/* plans section starts  */
+:root {
+    --primary-color: white;
+    --background-color: #f1f5f9;
+    --text-color: #888;
+    --bule-color: #0473fc;
+    --blue-light: #d0e4fc;
+    --yellow-color: #f59e0b;
+    --yellow-light: #ffeccc;
+    --green-color: #22c55e;
+    --green-light: #d3f3df;
+    --red-color: #f44333;
+    --red-light: #f77d74;
+    --height-of-slider: 20px;
+    --left-px: 4px;
+}
+
+.plans {
+    padding: 20px;
+}
+.starter .plan-type {
+    background-color: var(--green-color);
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+    border: 2.5px solid white;
+    outline: 2.5px solid var(--green-color);
+}
+.basic .plan-type {
+    background-color: var(--bule-color);
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+    border: 2.5px solid white;
+    outline: 2.5px solid var(--bule-color);
+}
+.premium .plan-type {
+    background-color: var(--yellow-color);
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+    border: 2.5px solid white;
+    outline: 2.5px solid var(--yellow-color);
+}
+.plan-type h1 {
+    margin: 0;
+    font-size: 22px;
+}
+.plan-type .price {
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+}
+.plan-type .price span {
+    font-weight: 500;
+    font-size: 20px;
+}
+.plan-type .price h2 {
+    font-weight: 500;
+    font-size: 40px;
+}
+.features ul li {
+    display: flex;
+    align-items: center;
+    padding: 15px 0px;
+    gap: 5px;
+    text-transform: capitalize;
+}
+.features ul li .fa-info {
+    margin-left: auto;
+    font-size: 10px;
+    background-color: var(--text-color);
+    border-radius: 50%;
+    padding: 4px 8px;
+    color: white;
+}
+.features ul li .fa-check {
+    color: var(--green-color);
+    font-size: 18px;
+    width: 18px;
+}
+.features ul li .fa-xmark {
+    color: var(--red-color);
+    font-size: 18px;
+    width: 18px;
+}
+.join {
+    color: white;
+    width: fit-content;
+    padding: 5px 12px;
+    border-radius: 5px;
+} 
+.starter .join {
+   background-color: var(--green-color);
+}
+.basic .join {
+    background-color: var(--bule-color);
+ }
+ .premium .join {
+   color: var(--text-color);
+   margin-inline: auto;
+ }
+/* plans section ends  */
+/* -------------------------------------- */

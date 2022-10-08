@@ -1,0 +1,135 @@
+/* -------------------------------------- */
+/* profile section starts  */
+:root {
+    --primary-color: white;
+    --background-color: #f1f5f9;
+    --text-color: #888;
+    --bule-color: #0473fc;
+    --blue-light: #d0e4fc;
+    --yellow-color: #f59e0b;
+    --yellow-light: #ffeccc;
+    --green-color: #22c55e;
+    --green-light: #d3f3df;
+    --red-color: #f44333;
+    --red-light: #f77d74;
+    --height-of-slider: 20px;
+    --left-px: 4px;
+}
+.profile-section {
+    padding: 20px;
+}
+.profile-cards {
+    margin-top: 40px;
+}
+/* profile main starts  */
+.profile-main {
+    display: flex;
+}
+.profile-info {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 25px 40px;
+    align-items: center;
+}
+.profile-info img {
+    width: 140px;
+}
+.profile-info .name {
+    font-size: 18px;
+    font-weight: 700;
+}
+.profile-info .loader {
+    height: 6px;
+    background-color: #eee;
+    border-radius: 5px;
+    position: relative;
+}
+.profile-info .loader::before {
+    content: '';
+    position: absolute;
+    background-color: var(--bule-color);
+    border-radius: 5px;
+    width: 70%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.profile-info i {
+    color: var(--yellow-color);
+    font-size: 15px;
+}
+.profile-info .rating {
+    font-size: 13.5px;
+}
+.profile-description {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border-left: 1px solid #eee;
+    justify-content: space-between;
+}
+.profile-description .row{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20px;
+}
+.profile-description .row .title-light {
+    width: 100%;
+    margin-bottom: 15px;
+}
+.profile-description .row div:not(:first-child) {
+   font-size: 14.5px;
+}
+.profile-description .row div {
+    min-width: 250px;
+    margin-right: 40px;
+}
+@media (max-width: 1400px) {
+    .profile-main {
+        flex-direction: column;
+    }
+    .profile-description .row {
+        flex-direction: column;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        gap: 20px;
+    }
+    
+}
+/* profile main ends  */
+/* lastest activities start  */
+.profile-row .last-activity {
+    flex: 70%;
+}
+.profile-row .last-activity .content .row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.profile-row .last-activity .content .row h3 {
+    font-weight: 500;
+}
+.profile-row .last-activity img {
+    width: 90px;
+}
+/* lastest activities end  */
+.profile-row {
+    display: flex;
+    gap: 20px;
+}
+.profile-row .myskill {
+    flex: 30%;
+    border-radius: 10px;
+    background-color: white;
+    padding: 15px 20px;
+}
+@media (max-width: 992px) {
+    .profile-row {
+        flex-direction: column;
+        gap: 0;
+    }
+}
+/* profile section starts  */
+/* -------------------------------------- */
